@@ -26,7 +26,7 @@ Place all the .py files in main folder (in my case I placed distributions folder
 Create a file name \_\_init_\_.py in the distribution folder. This folder shows that the files in this directory is a package. 
 The code inside the \_\_init_\_.py file will run when you import a package inside a python program. 
 In  my case the \_\_init_\_.py file is importing the gaussian file from gaussiandistribution.py file. 
-It is done to directly import the package such as;
+It is use to directly import the package such as;
 ```
 From distribution import Gaussian 
 ```
@@ -91,7 +91,7 @@ pip install .
 if you get some other libraries errors it means these libraries are not installed in your virtual environment, so all you need to do is just pip install all those libraries 
 
 ## Run after installation 
-To run this first we need to activate the environment from terminal
+To run this, first we need to activate the environment from terminal
 ```
 ./vironmentname/Scripts/activate
 
