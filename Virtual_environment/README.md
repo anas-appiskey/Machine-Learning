@@ -71,7 +71,7 @@ To activate the virtual Env. run the second command
 
 **Note : For windows**
 
-```./environmentname/Scripts/activate```
+```.\environmentname\Scripts\activate```
 
 **Note : For Ubuntu**
 
